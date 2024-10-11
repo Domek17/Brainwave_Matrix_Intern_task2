@@ -1,0 +1,29 @@
+.cart__item--format {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 7.5rem;
+
+  color: #454545;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 2rem 0;
+  margin-left: 1rem;
+}
+
+.cart__item--product-icon {
+  height: 6.2rem;
+}
+
+.cart__item--quantity {
+  width: 6.4rem;
+  height: 5rem;
+  border: 2px solid #ebebeb;
+  background-color: #fff;
+}
+
+.cart__item--remove-icon {
+  width: 1.5rem;
+  margin: 0 4rem;
+  cursor: pointer;
+}
